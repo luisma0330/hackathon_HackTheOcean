@@ -12,7 +12,7 @@ body {
 
 .containername-nav{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;    
 }
 
@@ -42,7 +42,7 @@ a{
 
 .containername-nav{
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
