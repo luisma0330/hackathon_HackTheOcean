@@ -7,7 +7,7 @@
 
 body {
     background-color: #1c3d59;
-    text-align: justify
+    text-align: justify;
 }
 
 header {
@@ -49,7 +49,7 @@ a {
 
 .Status{
     font-size: large;
-    color: red;
+    color: rgb(238, 224, 27);
     text-align: none;
 }
 

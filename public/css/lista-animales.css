@@ -33,7 +33,7 @@ nav {
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
     color: #277a8c;
     align-items: baseline;
 }
@@ -45,3 +45,10 @@ a {
 h2 {
     color: #dae6e9;
 }
+
+img {
+    width: 30%;
+    height: auto;
+    border: 8px inset #277A8C;
+    border-radius: 8px;
+  }
