@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node lib/server.js",
     "test": "",
     "server": "node lib/server.js"
   },
