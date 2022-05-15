@@ -1,39 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-body{
-  background-color: #1c3d59;
-  
-  
+
+body {
+    background-color: #1c3d59;
+    text-align: justify
 }
-header{
+
+header {
+    margin: 0%;
+    padding: 0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin-left: 10rem;
 }
-nav{
+
+nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
+    justify-content: space-between;
+    align-items: alflex-end;
+    width: 100%;
     font-weight: bold;
+    padding-right: 90px;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 1rem 5rem 1rem 5rem;
     backdrop-filter: blur(25px);
     z-index: 2;
 }
 
-.h1{
-    color: aqua;
+a {
+    text-decoration: none;
+    color: #277a8c;
+    align-items: baseline;
 }
-
-
-.Name,
-.Des,
-.Situacion {
+.Name,.Des,.Situacion {
   font-size: x-large;
     color: white;
 }
@@ -46,11 +50,10 @@ nav{
 .Status{
     font-size: large;
     color: red;
-    text-align: center;
+    text-align: none;
 }
 
 .Txt-Especies{
-    text-align: left;
     color: rgb(231, 228, 228);
 }
 
@@ -58,3 +61,30 @@ nav{
     color: white;
     text-decoration: none;
 }
+
+.section{
+    padding:75px 0;
+}
+
+.Informacion{
+    padding-top: 10px;
+    position: relative;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 90px;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+}
+
+.preparation-column{
+    width: 50%;
+    padding-right: 35px;
+}
+

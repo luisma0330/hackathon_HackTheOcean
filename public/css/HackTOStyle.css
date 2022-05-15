@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-  background-color: #1c3d59;
+  background-color:rgba(10, 0, 48, 0.7);
 }
 header{
     display: flex;
@@ -13,68 +13,41 @@ header{
     margin-left: 10rem;
 }
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 1rem 5rem 1rem 5rem;
-    backdrop-filter: blur(25px);
-    z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(10, 0, 48, 0.7);
+  padding: 1rem 5rem 1rem 5rem;
+  backdrop-filter: blur(25px);
+  z-index: 2;
 }
-
-p { 
-	box-shadow: .6em 0 0 #ffffff;
-  margin: 2rem 1rem;
-	width: 23ch;
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+p {
+  width: 0;
   overflow: hidden;
-  color: #FFF;
-	white-space: nowrap;
-	animation: caret .5s step-end infinite alternate,
-             type 5s steps(230, end)
+  white-space: nowrap;
+  font-size: 2rem;
+  margin: 0 auto;
+  color: white;
+  font-family: "Poppins";
+  border-right: 0.15em solid rgb(255, 230, 0);
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
 }
-@keyframes type {
-  0% {
+@keyframes typing {
+  from {
     width: 0;
   }
-
-}
-@keyframes caret { 
-  50% { 
-    box-shadow: .6em 0 0 transparent;
+  to {
+    width: 100%;
   }
 }
-/* .button_m {
-    position: relative;
-    background-color: #1A4A73;
-    border: none;
-    font-size: 28px;
-    color: #FFFFFF;
-    padding: 20px;
-    width: 20px;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-  } */
-  
-  /* .button_m{
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px !important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-  .button_m:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  } */
+}
