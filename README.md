@@ -6,6 +6,10 @@
 
 * express `npm express --save-dev`
 
+**Iniciar proyecto**
+
+* Poner en la terminal: `npm install` 
+
 **FrontEnd**
 
 * HTML
