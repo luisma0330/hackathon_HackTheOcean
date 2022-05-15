@@ -8,7 +8,7 @@
     "test": "",
     "server": "node lib/server.js"
   },
-  "author": "",
+  "author": "luisma0330, BernardoEspinoza02, ChristianVazquez22 , JorgeCanto3, aljesbacarre",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
