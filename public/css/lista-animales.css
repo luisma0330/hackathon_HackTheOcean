@@ -10,32 +10,71 @@ body {
     text-align: center;
 }
 
-header {
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 10rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: alflex-end;
+.containername-nav{
     width: 100%;
-    font-weight: bold;
-    padding-right: 90px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 1rem 5rem 1rem 5rem;
-    backdrop-filter: blur(25px);
-    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;    
 }
 
-a {
-    text-decoration:none;
+.Title{
+    padding: 5px;
+    margin: 20px;
+    margin-left: 50px;
+    display: flex;
+    font-size: 30px;      
+}
+
+a{
+    text-decoration: none;
     color: #277a8c;
     align-items: baseline;
+    
+}
+
+.header { 
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    }
+
+.header .containername-nav .Menu a{
+        font-size: 19px;
+    }
+
+.containername-nav{
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+
+.Menu{
+    background: none;
+}
+
+.Menu ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    word-spacing: 8px;
+}
+
+.Menu ul li{
+    display: inline-block;
+}
+
+.Menu ul li a{
+    display: block;
+    padding: 10px 16px;
+    border-radius: 3px;
+    transition: all 0.4s linear;
+}
+
+.Menu ul li a:hover{
+    background: #1c6c8c;
+    color: rgb(4, 241, 241);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);          
 }
 
 .Especies {
@@ -52,3 +91,8 @@ img {
     border: 8px inset #277A8C;
     border-radius: 8px;
   }
+
+.TitleL{
+    text-decoration: none;
+    color:black
+}

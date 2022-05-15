@@ -56,7 +56,7 @@ a{
     margin: 0%;
     padding: 0%;
     list-style: none;
-    word-spacing: 10px;
+    word-spacing: 8px;
 }
 
 .Menu ul li{
@@ -110,4 +110,9 @@ footer{
     text-align: center;
     color: rgb(255, 238, 0);
     font-size: 30px;
+}
+
+.TitleL{
+    text-decoration: none;
+    color:black
 }
